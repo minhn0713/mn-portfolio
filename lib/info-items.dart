@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mn_portfolio/coding-skills.dart';
 import 'package:mn_portfolio/constants.dart';
 import 'package:mn_portfolio/past-education.dart';
-
 import 'my-info.dart';
 
 class InfoIMenu extends StatelessWidget {
@@ -36,8 +36,9 @@ class InfoIMenu extends StatelessWidget {
                     title: "Age",
                     text: "23",
                   ),
-                  Divider(),
+                  //Divider(),
                   PastEducation(),
+                  CodingSkills(),
                 ],
               ),
             ),

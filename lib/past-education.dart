@@ -10,10 +10,10 @@ class PastEducation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ignore: dead_code
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        Divider(),
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
