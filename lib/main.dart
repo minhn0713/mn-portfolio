@@ -14,15 +14,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
-          primaryColor: primaryColor,
-          scaffoldBackgroundColor: bgColor,
-          canvasColor: bgColor,
-          textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)
-              .apply(bodyColor: Colors.white)
-              .copyWith(
-                bodyText1: TextStyle(color: bodyTextColor),
-                bodyText2: TextStyle(color: bodyTextColor),
-              )),
+        primaryColor: primaryColor,
+        scaffoldBackgroundColor: bgColor,
+        canvasColor: bgColor,
+        textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)
+            .apply(bodyColor: Colors.white)
+            .copyWith(
+              bodyText1: TextStyle(color: bodyTextColor),
+              bodyText2: TextStyle(color: bodyTextColor),
+            ),
+      ),
       home: HomePage(),
     );
   }
