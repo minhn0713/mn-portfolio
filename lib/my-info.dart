@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mn_portfolio/info-items.dart';
 
 class SelfInfo extends StatelessWidget {
   const SelfInfo({
@@ -17,6 +16,7 @@ class SelfInfo extends StatelessWidget {
             Spacer(),
             CircleAvatar(
               radius: 50,
+              backgroundImage: AssetImage("assets/icons/selfie.jpg"),
             ),
             Spacer(),
             Text(
