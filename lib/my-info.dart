@@ -11,7 +11,7 @@ class SelfInfo extends StatelessWidget {
     return AspectRatio(
       aspectRatio: 1.2,
       child: Container(
-        color: Colors.grey,
+        color: Colors.blueGrey[700],
         child: Column(
           children: [
             Spacer(),
