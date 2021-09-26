@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:mn_portfolio/coding-skills.dart';
+import 'package:mn_portfolio/overall-info/coding-skills.dart';
 import 'package:mn_portfolio/constants.dart';
-import 'package:mn_portfolio/knowledge.dart';
-import 'package:mn_portfolio/past-education.dart';
+import 'package:mn_portfolio/overall-info/knowledge.dart';
+import 'package:mn_portfolio/overall-info/past-education.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'my-info.dart';
 
-class InfoIMenu extends StatelessWidget {
-  const InfoIMenu({
+class InfoMenu extends StatelessWidget {
+  const InfoMenu({
     Key? key,
   }) : super(key: key);
 
