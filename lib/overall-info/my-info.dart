@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mn_portfolio/constants.dart';
 
 class SelfInfo extends StatelessWidget {
   const SelfInfo({
@@ -10,7 +11,7 @@ class SelfInfo extends StatelessWidget {
     return AspectRatio(
       aspectRatio: 1.2,
       child: Container(
-        color: Colors.blueGrey[700],
+        color: secondaryColor,
         child: Column(
           children: [
             Spacer(),
