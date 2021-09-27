@@ -15,7 +15,10 @@ class HomePage extends StatelessWidget {
             flex: 2,
             child: InfoMenu(),
           ),
-          Expanded(flex: 7, child: Projects()),
+          Expanded(
+            flex: 7,
+            child: Projects(),
+          ),
         ],
       ),
     );
