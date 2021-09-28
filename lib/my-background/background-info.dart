@@ -15,7 +15,7 @@ class BackgroundInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Padding(
+      child: SingleChildScrollView(
         padding: const EdgeInsets.all(defaultPadding),
         child: Column(
           children: [
