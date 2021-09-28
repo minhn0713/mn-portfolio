@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mn_portfolio/constants.dart';
 import 'package:mn_portfolio/my-projects/projects.dart';
+import 'package:mn_portfolio/responsive.dart';
 
 class ProjectBox extends StatelessWidget {
   const ProjectBox({
@@ -27,7 +28,7 @@ class ProjectBox extends StatelessWidget {
           Spacer(),
           Text(
             project.desc!,
-            maxLines: 4,
+            maxLines: Responsive.isMobileLarge(context) ? 3 : 4,
             style: TextStyle(
               height: 2,
             ),
