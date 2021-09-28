@@ -10,9 +10,9 @@ List<Course> courseInfo = [
         "Deepens understading of software engineers by coding multiple projects.",
   ),
   Course(
-    title: "Probability & Statistics",
+    title: "Analysis of Algorithms",
     desc:
-        "Use analytical skills to calculate the probability of events, estimation, hypothesis testing, regression, correlation",
+        "Development of more sophisticated ideas in data type and structure, with an introduction to the connection between data structures and the algorithms they support. Data abstraction. Controlled access structures. Trees, lists, stacks, queues, graphs, arrays, hash tables. Algorithm design strategies such as divide and conquer. Elementary techniques for analysis; asymptotic analysis, recursion equations, estimation methods, elementary combinatorial arguments. Examination of problem areas such as searching and sorting, and the indicated representations and algorithms. Establishing algorithmic correctness and estimating time and space complexity",
   ),
   Course(
     title: "Ethics in Computing",
