@@ -1,6 +1,6 @@
 # mn_portfolio
 
-A new Flutter project.
+Built a responsive flutter website for my background.
 
 ## Getting Started
 
