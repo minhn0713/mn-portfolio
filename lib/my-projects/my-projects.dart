@@ -18,10 +18,11 @@ class MyProjects extends StatelessWidget {
           "My Projects",
           style: Theme.of(context).textTheme.headline6,
         ),
+        SizedBox(height: defaultPadding),
         Responsive(
           mobile: ProjectsGridView(
             crossAxisCount: 1,
-            childAspectRatio: 2,
+            childAspectRatio: 1.7,
           ),
           mobileLarge: ProjectsGridView(crossAxisCount: 2),
           tablet: ProjectsGridView(childAspectRatio: 1.1),

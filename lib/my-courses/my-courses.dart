@@ -22,7 +22,7 @@ class MyCourses extends StatelessWidget {
         Responsive(
           mobile: CoursesGridView(
             crossAxisCount: 1,
-            childAspectRatio: 2,
+            childAspectRatio: 1.5,
           ),
           mobileLarge: CoursesGridView(crossAxisCount: 2),
           tablet: CoursesGridView(childAspectRatio: 1.1),
